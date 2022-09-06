@@ -1,0 +1,120 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  height: 180px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* 縺薙％縺九ｉ */
+header {
+  height: 50px;
+  background-color: #2B2B2B;
+  font-size: 0.8rem;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header ul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header li {
+  float: left;
+  padding: 10px;
+  list-style: none;
+  text-align: left;
+}
+
+.left {
+  float: left;
+  margin: 5px;
+  }
+
+.right_menu {
+  float: right;
+  }
+
+.right {
+  float: left;
+  margin: 5px;
+}
+
+header ul:after {
+  
+}
+/* 縺薙％縺ｾ縺ｧ縺敬eader驛ｨ蛻��螳溯｣� */
+
+.main-header img {
+  width: 13%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+/* main逕ｻ蜒擾ｼ育區縺�窟chieve縲阪�譁�ｭ励�逕ｻ蜒擾ｼ蛾Κ蛻��螳溯｣� */
+}
+
+.about h1 {
+  /* About Achieve驛ｨ蛻��螳溯｣� */
+    font-size: 1.5rem;
+  }
+  
+  .about p {
+    font-size: 0.8rem;
+
+/* About Achieve驛ｨ蛻��螳溯｣� */
+}
+
+/* 縺薙％縺九ｉ */
+.function {
+  background-color: #D3D3D3;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.function h1 {
+  font-size: 30px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.function-images {
+  display: flex;
+  justify-content: center;
+}
+
+.function-image {
+  padding: 50px;  
+}
+/* 縺薙％縺ｾ縺ｧ縺掲unction驛ｨ蛻��螳溯｣� */
+
+/* footer驛ｨ蛻��螳溯｣� */
+footer {
+  background-color: #283A4B;
+  line-height: 70px;
+  text-align: center;
+  
+}
+
+footer p {
+  display:inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 0.8rem;
+  color: #fff;  
+}
